@@ -10,7 +10,7 @@ import { Sale } from "../../models/sele";
 
 function SalesCard() {
 
-    const min = new Date(new Date().setDate(new Date().getDate() - new Date().getDate() + 1));
+    const min = new Date(new Date().setDate(new Date().getDate() - new Date().getDate()));
 
     const [minDate, setMinDate] = useState(min);
     const [maxDate, setMaxDate] = useState(new Date());
